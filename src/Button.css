@@ -1,0 +1,21 @@
+.rounded-button {
+  background-color: #98d4ff;
+  border: 1;
+  border-radius: 17px;
+  color: white;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: 'Urbanist', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Urbanist:400,600,700');
+
+.rounded-button:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s ease-in-out;
+}
